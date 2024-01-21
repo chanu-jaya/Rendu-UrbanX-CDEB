@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UrbanX</title>
+    <link rel="icon" href="img/urbanx.png">
+</head>
+
+<body>
+    <header>
+        <div class="menu-btn" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <img src="img/urbanx.png" alt="image1" width=150>
+    </header>
+
+    <nav class="nav-menu">
+        <a href="index.html">Accueil</a>
+        <a href="#">Shopping</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <section>
+        <form action="" method="POST" enctype="multipart/form-data">
+            <div>
+                <label for="pseudo">Pseudo : </label>
+                <input type="pseudo" id="pseudo" name="pseudo">
+            </div>
+
+            <div>
+                <label for="email">Email : </label>
+                <input type="email" id="email" name="email">
+            </div>
+
+            <div>
+                <label for="password">Mot de passe :</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <button type="submit">Contacter</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 UrbanX by Chanu Jayawardena. Tous droits réservés.</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
